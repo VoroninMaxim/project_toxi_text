@@ -11,7 +11,9 @@ def browser():
     return chrome_browser
 
 def test_button_exist(browser):
-    browser.get('https://projecmainpy-aeyjgpknumzhxbptpk5dwh.streamlit.app')
-    assert browser.find_element(By.ID, 'alternate-favicon').is_displayed()
+    browser.get('https://projecmainpy-aeyjgpknumzhxbptpk5dwh.streamlit.app') #---favicon
+    assert browser.find_element(By.ID, 'favicon').is_displayed()
+
+
 #--проверяет что что то отображаеться
 #----id="alternate-favicon" ---submit-id-submit
