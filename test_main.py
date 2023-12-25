@@ -1,7 +1,7 @@
 # from selenium import webdriver
 # from selenium.webdriver.common.by import By
 # from selenium.webdriver.chrome.options import Options
-import pytest
+#import pytest
 #
 # @pytest.fixture()
 # def browser():
@@ -20,17 +20,21 @@ import pytest
 # #----https://docs.streamlit.io/library/advanced-features/app-testing/get-started
 #
 
-# from streamlit.testing.v1 import AppTest
+from streamlit.testing.v1 import AppTest
 #
-# def test_project_main():
-#     at = AppTest.from_file("projec_main.py")
+def test_project_main():
+    at = AppTest.from_file("projec_main.py").run()
+    assert not at.exception
+
+    # at.text_input('text').input('text').run()
+    # assert at.warning[0].value == 'Sorry, the text did not match'
 #     #at.secrets['db_username'] = 'myuser'
 #     #at.run()
 #     # at.number_input[0].increment().run()
 #     # at.button[0].click().run()
 #     # assert at.markdown[0].value <= 0.01
 #     #assert AppTest.from_file("projec_main.py").run()
-#     #assert not at.exception
+#
 #
 #     #at.text_input('db_username').input('VoroninMaxim').run()
 #     #assert at.warning[0].value == 'Try again.'
@@ -41,10 +45,22 @@ import pytest
 #
 #     assert "My Text Toxicity App" in at.title[1].value
 
-def test():
-    from streamlit.testing.v1 import AppTest
-    at = AppTest.from_file("projec_main.py")
-    at.run()
+# def test():
+#     from streamlit.testing.v1 import AppTest
+#     at = AppTest.from_file("projec_main.py")
+#     at.run()
+#
+
+# from streamlit.testing.v1 import AppTest
+#
+# def repro():
+#     import streamlit as st
+#     st.container()
+#
+# def test_repro():
+#     at = AppTest.from_function(text2toxicity).run()
+
+
 
 ####----web: uvicorn main:app --host=0.0.0.0 --port=${PORT:-5000}
 ####----https://docs.streamlit.io/library/advanced-features/app-testing/cheat-sheet
