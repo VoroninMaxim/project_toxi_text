@@ -10,10 +10,11 @@
 Список необходимых библиотек использующихся в проекте находится в файле **requirements.txt**
 <hr>
 
-Разработанное с помощью библиотеки FastAPI, **API** для приложения  машинного обучения находится в  **main.py**
 Тест создан в отдельном файле  **test_main.py** , инструмент для автоматического запуска тестирования  -- **Github Actions**
 <hr>
 
-_Ниже представлен print screen файла  test_main.py_
+_Ниже представлен результат тестирования_
 
 [![Build Staus](https://github.com/VoroninMaxim/project_toxi_text/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/VoroninMaxim/project_toxi_text/actions/workflows/python-app.yml)
+
+<a href="https://github.com/VoroninMaxim/project_toxi_text"><img src="https://projecmainpy-aeyjgpknumzhxbptpk5dwh.streamlit.app?font=Fira+Code&pause=1000&color=000000&random=false&width=435&lines=Link+to+apps+in+Streamlit" alt="Typing SVG" /></a>
