@@ -23,8 +23,8 @@ import pytest
 from streamlit.testing.v1 import AppTest
 
 def test_project_main():
-    at = AppTest.from_file("projec_main.py")#--.run()
-    at.secrets['db_username'] = 'VoroninMaxim'
+    at = AppTest.from_file("projec_main.py")
+    at.secrets['db_username'] = 'myuser'
     at.run()
     # at.number_input[0].increment().run()
     # at.button[0].click().run()
