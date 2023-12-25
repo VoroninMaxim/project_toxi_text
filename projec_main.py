@@ -21,5 +21,5 @@ def text2toxicity(text, aggregate=True):
         return 1 - proba.T[0] * (1 - proba.T[-1])
     return proba
 
-user_input = st.text_input("Enter a text", key='enter_text', type='text')
+user_input = st.text_input("Enter a text")#-, key='enter_text', type='text'
 st.write("{:.6f}".format(text2toxicity(user_input)), "--non-toxic--")
