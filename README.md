@@ -16,4 +16,4 @@
 
 _Ниже представлен print screen файла  test_main.py_
 
-![Build Staus](https://github.com/VoroninMaxim/project_toxi_text/actions/workflows/python-app.yml/badge.svg?branch=master)
+[![Build Staus](https://github.com/VoroninMaxim/project_toxi_text/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/VoroninMaxim/project_toxi_text/actions/workflows/python-app.yml)
