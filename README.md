@@ -17,4 +17,4 @@ _Ниже представлен результат тестирования_
 
 [![Build Staus](https://github.com/VoroninMaxim/project_toxi_text/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/VoroninMaxim/project_toxi_text/actions/workflows/python-app.yml)
 
-<a href="https://git.io/typing-svg"><img src="https://projecmainpy-aeyjgpknumzhxbptpk5dwh.streamlit.app?font=Fira+Code&pause=1000&color=000000&random=false&width=435&lines=Link+to+apps+in+Streamlit" alt="Typing SVG" /></a>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=000000&random=false&width=435&lines=Link+to+apps+in+Streamlit)](https://projecmainpy-aeyjgpknumzhxbptpk5dwh.streamlit.app/)
